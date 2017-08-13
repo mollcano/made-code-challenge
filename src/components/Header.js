@@ -5,7 +5,7 @@ export default class Header extends Component {
   render(){
     return(
       <div className="header">
-        <h1>Molly Brooks</h1>
+        <img className="profilePic" src="./images/img-profile.png" alt="profile" />
       </div>
     )
   }
