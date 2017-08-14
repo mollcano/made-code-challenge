@@ -11,10 +11,11 @@ html, body {
 }
 .nav{
   display: flex;
-  width: 57%;
-  max-width: 745px;
+  width: 56.2vw;
+  max-width: 760px;
   height: 100%;
   justify-content: space-between;
+
 }
 .hamburger{
   margin-top: 1.5vh;
