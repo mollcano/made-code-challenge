@@ -11,8 +11,8 @@ html, body {
 }
 .nav{
   display: flex;
-  width: 56.5%;
-  max-width: 760px;
+  width: 57%;
+  max-width: 745px;
   height: 100%;
   justify-content: space-between;
 }
