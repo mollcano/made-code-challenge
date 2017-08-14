@@ -19,7 +19,7 @@ export default class Form extends Component {
           </form>
         </div>
         <div className="submitContainer">
-          <img className="submitButton" src="./images/img-save.png" alt="save" />
+          <img className="submitButton" src={require("./images/img-save.png")} alt="save" />
         </div>
       </div>
     )
