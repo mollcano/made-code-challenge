@@ -11,7 +11,7 @@ html, body {
 }
 .nav{
   display: flex;
-  width: 55%;
+  width: 56.5%;
   max-width: 760px;
   height: 100%;
   justify-content: space-between;
@@ -26,7 +26,6 @@ html, body {
 .profileText{
   font-size: 2.7vh;
   margin-top: 1.5vh;
-  letter-spacing: 1px;
 }
 .header{
   display: flex;
