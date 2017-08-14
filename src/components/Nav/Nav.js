@@ -8,6 +8,8 @@ export default class Nav extends Component {
       <div className="navCont">
         <div className="nav">
           <img className="hamburger" src={require("./images/icon-hamburger-nav.png")} alt="navigation icon" />
+        </div>
+        <div className="profileContainer">
           <p className="profileText">Profile</p>
         </div>
       </div>
