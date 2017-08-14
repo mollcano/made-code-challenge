@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../App.css'
+import '../../App.css'
+import './nav.css'
 
 export default class Nav extends Component {
   render(){
