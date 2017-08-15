@@ -1,11 +1,16 @@
 .formContainer{
+  position: absolute;
+  bottom: 18%;
+  top: 27%;
   margin: 8.2vh 6% 0 6%;
   display: flex;
   justify-content: center;
   width: 86%;
-  height: 52.6vh;
-  max-height: 700px;
+  height: 49.5vh;
   color: rgb(157,155,157);
+}
+form{
+  max-height: 97%;
 }
 label{
   font-size: 1.8vh;
@@ -16,14 +21,14 @@ input, textarea{
   border-radius: 7px;
   font-size: 1.8vh;
   border: rgb(245,244,244);
-  margin-top: 1%;
-  margin-bottom: 1.5%;
+  margin-top: 3px;
+  margin-bottom: 4px;
   color: rgb(157,155,157);
   padding-left: 10px;
   font-family: 'Merriweather', serif;
 }
 input{
-  height: 10.4%;
+  height: 11.4%;
   max-height: 6vh;
 }
 textarea{
@@ -32,18 +37,23 @@ textarea{
   resize: none;
   padding-top: 10px;
 }
-.submitContainer{
-  display: flex;
-  justify-content: center;
-  width: 86%;
-  margin-right: 6%;
-  margin-left: 6%;
-}
 .submitButton{
+  position: absolute;
+  left: 60%;
   width: 20vh;
-  height: 10%;
-  max-height: 7.5vh;
-  margin-top: 1.3%;
-  margin-left: 65%;
+  height: 14.5%;
+  max-height: 9.5vh;
+  margin-top: 5px;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 580px){
+  .submitButton{
+    left: 72%;
+  }
+}
+@media screen and (min-width: 850px){
+  .submitButton{
+    left: 73%;
+  }
 }
