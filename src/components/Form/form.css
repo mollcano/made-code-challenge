@@ -1,7 +1,7 @@
 .formContainer{
   position: absolute;
   bottom: 18%;
-  top: 27%;
+  top: 26.5%;
   margin: 8.2vh 6% 0 6%;
   display: flex;
   justify-content: center;
@@ -39,21 +39,21 @@ textarea{
 }
 .submitButton{
   position: absolute;
-  left: 60%;
-  width: 20vh;
-  height: 14.5%;
-  max-height: 9.5vh;
-  margin-top: 5px;
+  right: 0;
+  width: 45%;
+  height: 16%;
+  max-height: 69px;
+  max-width: 190px;
+  margin-top: 1.5%;
   margin-bottom: 10px;
 }
-
-@media screen and (min-width: 580px){
+@media screen and (min-width: 900px){
   .submitButton{
-    left: 72%;
+    right: 10%;
   }
 }
-@media screen and (min-width: 850px){
+@media screen and (min-width: 1200px){
   .submitButton{
-    left: 73%;
+    right: 20%;
   }
 }
