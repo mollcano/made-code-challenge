@@ -45,8 +45,8 @@ textarea{
 .submitButton{
   width: 43%;
   height: 16%;
-  max-width: 220px;
-  max-height: 170px;
+  max-width: 200px;
+  max-height: 90px;
   margin-top: 1.5%;
   margin-bottom: 20px;
 }
