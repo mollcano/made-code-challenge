@@ -28,7 +28,7 @@ input{
 }
 textarea{
   height: 30%;
-  max-height: 20vh;
+  max-height: 16vh;
   resize: none;
   padding-top: 10px;
 }
