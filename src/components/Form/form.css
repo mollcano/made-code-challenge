@@ -2,7 +2,7 @@
   position: absolute;
   bottom: 18%;
   top: 26.5%;
-  margin: 8.2vh 6% 0 6%;
+  margin: 8.2vh 6% 1% 6%;
   display: flex;
   justify-content: center;
   width: 86%;
@@ -37,23 +37,16 @@ textarea{
   resize: none;
   padding-top: 10px;
 }
+.submitContainer{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 .submitButton{
-  position: absolute;
-  right: 0;
-  width: 45%;
+  width: 43%;
   height: 16%;
-  max-height: 69px;
-  max-width: 190px;
+  max-width: 220px;
+  max-height: 170px;
   margin-top: 1.5%;
-  margin-bottom: 10px;
-}
-@media screen and (min-width: 900px){
-  .submitButton{
-    right: 10%;
-  }
-}
-@media screen and (min-width: 1200px){
-  .submitButton{
-    right: 20%;
-  }
+  margin-bottom: 20px;
 }
